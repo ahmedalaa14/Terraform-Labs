@@ -1,6 +1,6 @@
 provider "aws" {
   region  = "us-east-1"
-  profile = "eraki"
+  profile = "default"
 }
 
 resource "aws_iam_role" "lambda_iam_role" {
